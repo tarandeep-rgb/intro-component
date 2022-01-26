@@ -1,0 +1,48 @@
+@media only screen and (max-width: 400px) {
+    body {
+      flex-direction: column;
+    }
+    .leftbox{
+        margin-right: 15rem;
+    }
+    .leftbox h1{
+        font-size: 30px;
+    }
+    .leftbox span{
+        max-width: 10rem;
+    }
+    .leftbox h1 br{
+        display: none;
+    }
+    .rightbox{
+        margin-top: 4rem;
+    }
+    .rightbox p{
+        padding: 20px;
+        width: 20rem;
+        margin-left: 177px;
+
+    }
+    .form{
+        margin-left: 159px;
+        width: 72vh;
+        justify-content: center;
+        text-align: center;
+        height: 90vh;
+    }
+    form{
+        margin-left: 10px;
+        width: 60vh;
+    }
+    .form span{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .form span:nth-child(2){
+        max-width: 20rem;
+        max-height: 0.1rem;
+    }
+  }
